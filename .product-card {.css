@@ -1,0 +1,28 @@
+.product-card {
+    display: flex;
+  }
+  
+  .buy-button:hover {
+    background-color: #218838;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .product-card {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .product-image {
+      width: 100%;
+    }
+  
+    .product-info {
+        align-items: center;
+    }
+    
+    .product-benefits {
+      display: none;
+    }
+  }
